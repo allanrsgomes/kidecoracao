@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    
-    <!-- Meta tags Obrigatórias -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Ki Decoração!</title>
+    
 </head>
 <body>
     <!-- Menu -->
@@ -21,10 +18,10 @@
                   <a class="navbar-brand" href="#">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="navbar-brand" href="#">Fotos</a>
+                  <a class="navbar-brand" href="#">Eventos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="navbar-brand" href="#">Eventos</a>
+                  <a class="navbar-brand" href="#">Sobre</a>
                 </li>
                 <li class="nav-item">
                     <a class="navbar-brand" href="#">Contato</a>
@@ -32,56 +29,72 @@
             </ul>
         </div>
 
+        <div class="mobile">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
         <div class="list-right">
             <ul class="navbar-nav flex-row">
                 <li class="nav-item">
                   <a class="navbar-brand" href="https://www.instagram.com/ki_decoracao/" target="_blank">
-                    <img src="img/icons/instagram.png" alt="Instagram">
+                    <picture>
+                        <source media="(min-width: 960px)" srcset="img/icons/instagram.png">
+                        <img src="img/icons/instagram-m.png" alt="Instagram">
+                    </picture>
                   </a>
                 </li>
                 <li class="nav-item">
                     <a class="navbar-brand" href="https://www.facebook.com/Ki-decora%C3%A7%C3%A3o-627929787353792/" target="_blank">
-                        <img src="img/icons/facebook.png" alt="Facebook">
+                    <picture>
+                        <source media="(min-width: 960px)" srcset="img/icons/facebook.png">
+                        <img src="img/icons/facebook-m.png" alt="Facebook">
+                    </picture>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="navbar-brand" href="https://api.whatsapp.com/send?phone=5551984674632&text=Ol%C3%A1%2C%20estou%20vindo%20atrav%C3%A9s%20do%20site." target="_blank">
-                        <img src="img/icons/whatsapp.png" alt="WhatsApp">
+                        <picture>
+                            <source media="(min-width: 960px)" srcset="img/icons/whatsapp.png">
+                                <img src="img/icons/whatsapp-m.png" alt="WhatsApp">
+                        </picture>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="navbar-brand" href="#" target="_blank">
-                        <img src="img/icons/youtube.png" alt="Youtube">
+                        <picture>
+                            <source media="(min-width: 960px)" srcset="img/icons/youtube.png">
+                                <img src="img/icons/youtube-m.png" alt="Youtube">
+                        </picture>
+                        
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="navbar-brand" href="index.html#cabecalho-h1-b">
-                        <img src="img/icons/localizacao.png" alt="Localização">
+                        <picture>
+                            <source media="(min-width: 960px)" srcset="img/icons/localizacao.png">
+                                <img src="img/icons/localizacao-m.png" alt="Localização">
+                        </picture>
                     </a>
                 </li>
             </ul>
-        </div>
-
-        <div class="mobile">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Fotos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Eventos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contato</a>
-                    </li>
-                </ul>
-            </div>
         </div>
     </nav>
 
@@ -98,33 +111,33 @@
           
      <!-- Cabeçalho Thumbnails -->
     <section class="anime" id="anime">
-            <h1 id="cabecalho-h1"> Veja nosso Portifólio</h1>
+            <h1 id="cabecalho-h1"> Veja nossos Eventos</h1>
             <p id="cabecalho-p">Aqui você verá alguns de nossos trabalhos feitos</p>
             <div class="row">
             <div class="col-sm-4">
                 <div class="thumbnail"> 
-                    <img class="img-bloco"  src="img/img02.jpg" height="300" width="500">
+                    <img class="img-bloco"  src="img/events/circo-beatriz.jpeg" height="300" width="500">
                     <div class="caption text-center"> 
-                        <h3>Sereias de plantão</h3>
-                        <p>A Ki Decoração faz arco calda de sereia!</p>
+                        <h3>Decoração de Circo</h3>
+                        <p>Para o espetáculo da Beatriz!</p>
                     </div>
                 </div>    
             </div>
             <div class="col-sm-4">
                 <div class="thumbnail"> 
-                    <img class="img-bloco" src="img/img03.jpg" height="300" width="500">
+                    <img class="img-bloco" src="img/events/monica-julia-3anos.jpeg" height="300" width="500">
                     <div class="caption text-center">
-                        <h3>Decoração de Bailarina</h3>
-                        <p>Para o espetáculo da Laura!</p>
+                        <h3>Turma da Mônica</h3>
+                        <p>Aniversário de 3 aninhos da Julia!</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="thumbnail">       
-                    <img class="img-bloco" src="img/img04.jpg" height="300" width="500">
+                    <img class="img-bloco" src="img/events/unicornio-isabela.jpeg" height="300" width="500">
                     <div class="caption text-center">
-                        <h3>Poderoso Chefinho</h3>
-                        <p>Chá de bebê do Poderoso Lorenzo.</p>
+                        <h3>Festa de Unicórnio</h3>
+                        <p>Para alegrar o niver da Isabela!</p>
                     </div>
                 </div>
                 </div>
@@ -135,28 +148,28 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="thumbnail"> 
-                        <img class="img-bloco"  src="img/img05.jpg" height="300" width="500">
+                        <img class="img-bloco"  src="img/events/mundobita-eduardo-2anos.jpeg" height="300" width="500">
                         <div class="caption text-center">
-                            <h3>Minnie</h3>
-                            <p>Decoração mini Minnie, para a pequena e linda Giovanna!</p>
+                            <h3>Mundo de Bita</h3>
+                            <p>Estava presente na festa de 2 aninhos do Eduardo</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="thumbnail"> 
-                        <img class="img-bloco" src="img/img08.jpg" height="300" width="500">
+                        <img class="img-bloco" src="img/events/frozen-ana-elza -.jpeg" height="300" width="500">
                         <div class="caption text-center">
-                            <h3>Os Vingadores</h3>
-                            <p>Se não conseguirmos proteger a festa, pode ter certeza de que iremos animar =P</p>
+                            <h3>Frozen</h3>
+                            <p>Uma festa congelante com a Ana e a Elza</p>
                         </div>
                     </div>
                 </div>        
                 <div class="col-sm-4">
                     <div class="thumbnail"> 
-                        <img class="img-bloco" src="img/img06.jpg" height="300" width="500">
+                        <img class="img-bloco" src="img/events/boteco-chadecasa-allanepri.jpeg" height="300" width="500">
                         <div class="caption text-center">
-                            <h3>Patrulha Canina</h3>
-                            <p>Entre osso e latidos, nosso amigo Pedrinho fez 3 anos!</p>
+                            <h3>Decoração de Boteco</h3>
+                            <p>Chá de casa nova Allan & Pri</p>
                         </div>
                     </div>
                 </div>
@@ -344,14 +357,12 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="form-row">
                         <div class="col-sm-12">
                             <button type="submit" class="btn btn-primary">Enviar</button>
-                            <a tabindex="0" class="btn btn-secondary ml-2" role="button" data-toggle="popover" data-placement="right" data-trigger="focus"
-                            title="Pintou alguma dúvida?!" data-content="Fale conosco: help@rotaryViagens.com">Ajuda</a>
                         </div>
                     </div>
+
                 </form>
             </div>
         </div>

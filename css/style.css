@@ -52,6 +52,10 @@ nav {
     z-index: 9999999;
 }
 
+.navbar {
+    position: fixed;
+}
+
 .header-overlay{
     height: 346px;
     width: 100vw;
@@ -86,7 +90,7 @@ nav {
 }
 
 .section {
-    padding: 20px 0 100px 0;
+    padding: 20px 0 1px 0;
     display: block;
 }
 
@@ -132,6 +136,9 @@ nav {
     .descktop {
         display: none;
     }
+    .list-right {
+        margin-right: 0;
+    }
 }
 
 .img-bloco{
@@ -165,7 +172,7 @@ nav {
 }
 
 .anime{
-    padding-top: 20px;
+    padding-top: 80px;
     padding-bottom: 20px;    
     opacity: 0;
     transform: translate3d(-100px,0,0);
