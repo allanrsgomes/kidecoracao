@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -11,8 +11,8 @@ body {
     overflow-x: hidden;
 }
 
-.v-header{
-    height: 600px;
+.v-header {
+    height: 700px;
     display: flex;
     align-items: center;
     color: #fff;
@@ -56,7 +56,7 @@ nav {
     position: fixed;
 }
 
-.header-overlay{
+.header-overlay {
     height: 346px;
     width: 100vw;
     position: absolute;
@@ -66,22 +66,22 @@ nav {
     opacity: 0.85;
 }
 
-.header-content{
+.header-content {
     z-index: 2;
 }
 
-.header-content h1{
+.header-content h1 {
     font-size: 50px;
     margin-bottom: 0;
 }
 
-.header-content p{
+.header-content p {
     font-size: 1.5rem;
     display: block;
     padding-bottom: 2rem;
 }
 
-.btn{
+.btn {
     background: #1765be;
     color: #fff;
     font-size: 1.2rem;
@@ -89,46 +89,46 @@ nav {
     text-decoration: none;
 }
 
-.section {
+.sec {
     padding: 20px 0 1px 0;
     display: block;
 }
 
-.googlemaps{
+.googlemaps {
     display: block;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.mapa{
+.mapa {
     display: block;
     height: 550px;
     width: 100%;
 }
 
-.section-b{
+#contato {
     background: #333;
     color: #fff;
 }
 
 .footer-site {
+    font-size: 12px;
     background-color: #000000;
     color: #ffffff;
     padding-top: 10px;
 }
 
-@media(max-width:760px){
-    .header-overlay{
+@media(max-width:760px) {
+    .header-overlay {
         height: 420px;
     }
-
 }
 
-@media(max-width:960px){
-    .container{
+@media(max-width:960px) {
+    .container {
         padding-right: 3rem;
-        padding-left: 3rem;       
+        padding-left: 3rem;
     }
     .mobile {
         display: block;
@@ -141,7 +141,7 @@ nav {
     }
 }
 
-.img-bloco{
+.img-bloco {
     max-width: 100%;
     display: block;
     margin: 0 auto 0 auto;
@@ -152,34 +152,33 @@ nav {
     padding-bottom: 100px;
 }
 
-.content-site-b{
+.content-site-b {
     padding-bottom: 100px;
 }
 
-#cabecalho-h1{
+.cabecalho-h1 {
     text-align: center;
-    padding-top: 0px;
+    padding-top: 70px;
 }
 
-#cabecalho-h1-b{
-    text-align: center;
-    padding-top: 20px;
-}
-
-#cabecalho-p{
+#cabecalho-p {
     text-align: center;
     padding-bottom: 20px;
 }
 
-.anime{
-    padding-top: 80px;
-    padding-bottom: 20px;    
+.anime {
+    padding-top: 20px;
+    padding-bottom: 20px;
     opacity: 0;
-    transform: translate3d(-100px,0,0);
+    transform: translate3d(-100px, 0, 0);
     transition: .3s;
 }
 
-.anime-start{
+.anime-start {
     opacity: 1;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
+}
+
+.jumbotron {
+    margin-bottom: 0;
 }
