@@ -11,6 +11,10 @@ body {
     overflow-x: hidden;
 }
 
+.bg-dark {
+    background-color: #000000!important;
+}
+
 .v-header {
     height: 700px;
     display: flex;
