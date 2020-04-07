@@ -11,10 +11,6 @@ body {
     overflow-x: hidden;
 }
 
-.bg-dark {
-    background-color: #000000!important;
-}
-
 .v-header {
     height: 700px;
     display: flex;
@@ -31,12 +27,16 @@ body {
     display: none;
 }
 
+.logo {
+    padding: 0 40px;
+}
+
 .descktop {
     display: block;
 }
 
 .list-left {
-    margin-left: 14%;
+    margin-left: 1%;
 }
 
 .list-right {
