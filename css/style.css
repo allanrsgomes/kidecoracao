@@ -12,7 +12,7 @@ body {
 }
 
 .v-header {
-    height: 700px;
+    height: 600px;
     display: flex;
     align-items: center;
     color: #fff;
@@ -23,12 +23,18 @@ body {
     opacity: 0.85;
 }
 
+.menu {
+    background-color: #343a40;
+    display: flex;
+    padding-top: 10px;
+}
+
 .mobile {
     display: none;
 }
 
 .logo {
-    padding: 0 40px;
+    margin: 0 auto;
 }
 
 .descktop {
@@ -39,9 +45,13 @@ body {
     margin-left: 1%;
 }
 
-.list-right {
+.redes {
     margin-right: 14%;
     margin-left: auto;
+}
+
+.alinhar {
+    float: right;
 }
 
 .container {
@@ -57,11 +67,11 @@ nav {
 }
 
 .navbar {
-    position: fixed;
+    position: sticky!important;
 }
 
 .header-overlay {
-    height: 346px;
+    height: 500px;
     width: 100vw;
     position: absolute;
     left: 0;
@@ -75,7 +85,7 @@ nav {
 }
 
 .header-content h1 {
-    font-size: 50px;
+    font-size: 30px;
     margin-bottom: 0;
 }
 
@@ -123,12 +133,6 @@ nav {
     padding-top: 10px;
 }
 
-@media(max-width:760px) {
-    .header-overlay {
-        height: 420px;
-    }
-}
-
 @media(max-width:960px) {
     .container {
         padding-right: 3rem;
@@ -140,8 +144,11 @@ nav {
     .descktop {
         display: none;
     }
-    .list-right {
+    .redes {
         margin-right: 0;
+    }
+    .alinhar {
+        float: none;
     }
 }
 
@@ -185,4 +192,16 @@ nav {
 
 .jumbotron {
     margin-bottom: 0;
+}
+
+@media(min-width:35em) {
+    .header-content h1 {
+        font-size: 50px;
+    }
+    .header-overlay {
+        height: 400px;
+    }
+    v-header {
+        height: 700px;
+    }
 }
