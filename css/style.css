@@ -43,7 +43,18 @@ body {
 }
 
 .logo {
+    position: absolute;
+    left: 35%;
+    right: 35%;
+    width: 20%;
     margin: 0 auto;
+    text-align: center;
+    z-index: 2;
+}
+
+.logo a img {
+    height: 80px;
+    width: 80px;
 }
 
 .descktop {
@@ -81,7 +92,7 @@ body {
 
 .navbar .active a,
 .nav a:focus {
-    color: #007bff !important;
+    color: #c6c6c4 !important;
     background-color: transparent !important;
 }
 
@@ -118,7 +129,7 @@ body {
 .navbar-nav a:hover::after,
 .navbar-nav a:focus::before,
 .navbar-nav a:focus::after {
-    color: #007bff !important;
+    color: #c6c6c4 !important;
     background-color: transparent !important;
     opacity: 1;
     -webkit-transform: translateX(0px);
