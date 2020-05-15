@@ -22,8 +22,8 @@ aside#whatsapp {
     position: fixed;
     top: 0;
     right: 0;
-    height: 100vh;
-    width: 120px;
+    height: 180vh;
+    width: 70px;
     z-index: 14;
     display: flex;
     justify-content: center;
@@ -35,7 +35,7 @@ aside#whatsapp .content-aside {
     width: 40px;
     background-color: #fff;
     opacity: 60%;
-    padding-top: 50px;
+    padding-top: 0px;
     border-radius: .25rem;
 }
 
@@ -73,6 +73,10 @@ aside#whatsapp .content-aside .container-icons {
 aside#whatsapp .container-icons img:hover {
     transform: rotate(360deg);
     opacity: .5;
+}
+
+.chama {
+    display: none;
 }
 
 .v-header {
@@ -324,6 +328,16 @@ aside#whatsapp .container-icons img:hover {
     }
     v-header {
         height: 700px;
+    }
+    .chama {
+        display: block;
+    }
+    aside#whatsapp .content-aside {
+        padding-top: 50px;
+    }
+    aside#whatsapp {
+        width: 120px;
+        height: 100vh;
     }
 }
 
