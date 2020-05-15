@@ -18,6 +18,63 @@ body {
     overflow-x: hidden;
 }
 
+aside#whatsapp {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 120px;
+    z-index: 14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside#whatsapp .content-aside {
+    height: auto;
+    width: 40px;
+    background-color: #fff;
+    opacity: 60%;
+    padding-top: 50px;
+    border-radius: .25rem;
+}
+
+aside#whatsapp a:hover,
+aside#whatsapp a:active {
+    background-color: #fff;
+    opacity: 40%;
+    text-decoration: none;
+    border-radius: .25rem;
+}
+
+aside#whatsapp .content-aside p {
+    transform: rotate(-90deg);
+    margin-bottom: 38px;
+    margin-left: -35px;
+    font-weight: 700;
+    width: max-content;
+    color: black;
+}
+
+aside#whatsapp .content-aside .container-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-icons img {
+    margin: 12px 0;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: 800ms ease;
+}
+
+aside#whatsapp .container-icons img:hover {
+    transform: rotate(360deg);
+    opacity: .5;
+}
+
 .v-header {
     padding-right: 0px !important;
     padding-left: 0px !important;
