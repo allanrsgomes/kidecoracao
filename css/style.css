@@ -227,6 +227,10 @@ aside#whatsapp .container-icons img:hover {
     text-decoration: none;
 }
 
+.btn:hover {
+    color: #fff;
+}
+
 .sec {
     padding: 20px 0 1px 0;
     display: block;
@@ -246,8 +250,8 @@ aside#whatsapp .container-icons img:hover {
 }
 
 #contato {
-    background: #333;
-    color: #fff;
+    background: #e9ecef;
+    color: #333;
 }
 
 @media(max-width:960px) {
@@ -437,11 +441,6 @@ h2 img {
     height: 34px;
     width: 34px;
     font-size: 14px;
-}
-
-.social-icons a.whatsapp:active,
-.social-icons a.whatsapp:hover {
-    background-color: #27d246;
 }
 
 .social-icons a.facebook:active,
