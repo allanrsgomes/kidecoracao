@@ -1,7 +1,6 @@
-# Olá! Este o site KiDecoracao ** #
+# Olá! Este o site Ki Decoração ** #
 
-Neste site tive como objetivo ajudar minha irma com sua empresa, e tambem me aprofundar mais na minha area.
-Duas coisas boas em uma, ajudar as pessoas e se desenvolver para o mercado.
+Neste projeto tive como objetivo criar um site para empresa da minha irmã, e também me aprofundar mais nas tecnologias do mercado.
 
 ## Tecnologias
 - HTML5
