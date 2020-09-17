@@ -104,7 +104,7 @@ aside#whatsapp .container-icons img:hover {
 }
 
 .logo {
-    position: absolute;
+    position: fixed;
     left: 35%;
     right: 35%;
     width: 20%;
@@ -143,6 +143,9 @@ aside#whatsapp .container-icons img:hover {
 
 .navbar {
     opacity: 0.9;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
     filter: Alpha(opacity=90);
 }
 
