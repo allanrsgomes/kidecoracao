@@ -343,6 +343,11 @@ aside#whatsapp .container-icons img:hover {
         width: 120px;
         height: 100vh;
     }
+
+    .container-icons img {
+        width: 35px;
+        height: 35px;
+    }
 }
 
 hr {
